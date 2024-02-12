@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="appsettings.json~RF14fdc240.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\UserPwdEncrypt.deps.json" />
+    <Content Include="bin\Debug\net6.0\UserPwdEncrypt.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll" />
+    <None Include="bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\net6.0\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\net6.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\net6.0\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\net6.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\net6.0\UserPwdEncrypt.dll" />
+    <None Include="bin\Debug\net6.0\UserPwdEncrypt.exe" />
+    <None Include="bin\Debug\net6.0\UserPwdEncrypt.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+    <PackageReference Include="System.Core" Version="3.5.21022.801" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Xml.Linq" Version="3.5.21022.801" />
+  </ItemGroup>
+
+</Project>
